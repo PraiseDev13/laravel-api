@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel Api Authencation
+##  Laravel Api Authencation
 
 A plain Laravel API application with authentication using Laravel Sanctum.
 
@@ -49,14 +49,17 @@ php artisan serve
 
 ## API Endpoints
 Method	Endpoint
-POST	/api/register
-POST	/api/login
-POST	/api/logout
+POST	/api/register,
+POST	/api/login,
+POST	/api/logout,
 
 
 ## Authentication
 
 This project uses Laravel Sanctum for API authentication
+
+## Testing
+use postman
 
 
 
