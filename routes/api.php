@@ -4,9 +4,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 // A simple test route
-Route::get('/test', function () {
-    return 'Api is working'  ;
-});
 
 Route::post('/register', [AuthController::class, 'register']); 
 
